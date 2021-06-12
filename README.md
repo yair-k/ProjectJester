@@ -14,10 +14,10 @@
   <p align="center">
   The ultimate tool for Hangman
     <br />
-    <a href="[Project Jester (neocities.org)](https://projectjester.neocities.org/)"><strong>TRY IT OUT </strong></a>
+    <a href="[Project Jester](https://projectjester.neocities.org/)"><strong>TRY IT OUT </strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Visit Devpost</a>
+    <a href="https://devpost.com/software/project-jester">Visit Devpost</a>
     ·
     <a href="https://github.com/yair-k/ProjectJester/issues">Report Bug</a>
     ·
