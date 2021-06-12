@@ -14,7 +14,7 @@
   <p align="center">
   The ultimate tool for Hangman
     <br />
-    <a href="[Project Jester](https://projectjester.neocities.org/)">TRY IT OUT</a>
+	<a href="https://projectjester.neocities.org/"><strong>TRY IT OUT</strong></a>
     <br />
     <br />
     <a href="https://devpost.com/software/project-jester">Visit Devpost</a>
