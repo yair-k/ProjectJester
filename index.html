@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Jester</title>
+	<meta content="Jester" property="og:title">
+	<meta content="The ultimate hangman tool" property="og:description">
+	<meta content="https://projectjester.neocities.org" property="og:url">
+	<meta content="img/big_banner_bck.png" property="og:image">
+	<meta content="#3f4b6e" data-react-helmet="true" name="theme-color">
+	<meta charset="UTF-8">
+	<meta content="The ultimate hangman tool/" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="notranslate" name="google">
+	<meta name="keywords" content="guess the build, cheat, solver, list, hangman, cheats, hangman cheat, hangman cheats, hangman tool, hangman hack, hangman hacks">
+    <link rel="shortcut icon" type="" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="./wordlist/wordlist.js"></script> <!-- loads the words -->
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+            <h2 class="masthead-brand"><a href="index.html">JESTER</a></h2>
+        </div>
+      </div>      
+      <div class="inner cover">
+          <h1 class="cover-heading">OWN YOUR GAME</h1>
+          <p class="lead cover-copy">The ultimate cheat for hangman.</p>
+          <p class="lead"><button type="button" class="btn btn-lg btn-default" data-toggle="modal" data-target="#subscribeModal">TOOL</button></p>
+          <p class="lead"><button type="button" class="btn btn-lg btn-default"><a href="hints.html">HINTS</button></a></p>
+          <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify"><a href="https://www.hangmanwords.com/play">Play Hangman</a></button></p>
+          <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify"><a href="">Project Page</a></button></p>
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
+          <p>&copy; Project Jester for: <a href="https://alphahacks2021.devpost.com/" target="_blank">AlphaHacks 2021</a>.</p>
+        </div>
+      </div>
+
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="subscribeModalLabel">Jester Panel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="recipient-name" class="form-control-label">Enter full word including all unknowns</label>
+                        <label for="recipient-name" class="form-control-label">For words with spaces/hyphons, use those. For unknown words, use an underscore (_).</label>
+                        <p class="bold center">You currently have: <span id="count">0</span> characters.</p>
+                        <div class="form-group">
+                            <form>
+                                <input id="input" name="username" placeholder="Enter Word" type="text">
+                            </form>
+                            <div id="obj"></div>
+                            <div id="result"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="subscribeModalLabel">Jester Panel</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <label for="recipient-name" class="form-control-label">Enter full word including all unknowns</label>
+                                </form>
+                            </div>
+
+
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+	<script src="scripts/script.js"></script>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
